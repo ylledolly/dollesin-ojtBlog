@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import NavbarGate from "@/components/layout/navbar-gate";
+import SplashCursorGate from "@/components/layout/splash-cursor-gate";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -26,8 +28,14 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      data-scroll-behavior="smooth"
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {/*<LenisScroll />*/}
+        <SplashCursorGate />
+        <NavbarGate />
+        {children}
+      </body>
     </html>
   );
 }
