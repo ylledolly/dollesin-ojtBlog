@@ -28,8 +28,6 @@ export default function LogsStackClient() {
             <div className="mt-2 h-px w-0 group-hover:w-8 bg-white/40 transition-all duration-500" />
           </div>
 
-
-
           {/* Hover Overlay */}
           <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
         </motion.div>
