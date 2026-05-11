@@ -100,6 +100,7 @@ export default function StacksPage() {
                         src={item.character}
                         alt={`${item.name} character`}
                         fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         className="object-contain drop-shadow-2xl opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700"
                       />
                     </div>

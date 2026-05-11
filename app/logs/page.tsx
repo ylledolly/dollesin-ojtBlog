@@ -11,7 +11,7 @@ export default function LogsPage() {
           
           {/* Left Side - Title & Description */}
           <div className="lg:w-1/3 lg:sticky lg:top-24 lg:h-fit">
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif leading-[0.9] tracking-tight">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif leading-[0.9] tracking-tight">
               <ShinyText text="The" color="#b5b5b5" shineColor="#ffffff" speed={2} spread={120} />
               <br />
               <ShinyText text="Logs" color="#b5b5b5" shineColor="#ffffff" speed={2} spread={120} />

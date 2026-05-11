@@ -71,8 +71,7 @@ export const ScrapbookItem: React.FC<ScrapbookItemProps> = ({
         <Image
           src={src}
           alt={alt}
-          width={width}
-          height={height}
+          fill
           priority={priority}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="pointer-events-none drop-shadow-lg object-contain transition-opacity"

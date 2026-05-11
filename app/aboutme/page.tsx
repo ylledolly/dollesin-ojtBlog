@@ -29,8 +29,8 @@ export default function AboutMeSection() {
                   <Image
                     src="/images/about_me.svg"
                     alt="About Me Illustration"
-                    width={600}
-                    height={600}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-contain drop-shadow-2xl relative z-10"
                     priority
                   />
@@ -49,7 +49,7 @@ export default function AboutMeSection() {
                     ease: "easeInOut" 
                   }}
                 >
-                  <Image src="/images/14.png" alt="Cherry Decoration" width={100} height={100} className="object-contain" />
+                  <Image src="/images/14.png" alt="Cherry Decoration" fill className="object-contain" />
                 </motion.div>
 
                 <motion.div
@@ -65,7 +65,7 @@ export default function AboutMeSection() {
                     delay: 1
                   }}
                 >
-                  <Image src="/images/14.png" alt="Cherry Decoration" width={120} height={120} className="object-contain" />
+                  <Image src="/images/14.png" alt="Cherry Decoration" fill className="object-contain" />
                 </motion.div>
 
                 <motion.div
@@ -81,7 +81,7 @@ export default function AboutMeSection() {
                     delay: 0.5
                   }}
                 >
-                  <Image src="/images/14.png" alt="Cherry Decoration" width={60} height={60} className="object-contain" />
+                  <Image src="/images/14.png" alt="Cherry Decoration" fill className="object-contain" />
                 </motion.div>
 
                 {/* Additional Stickers */}
@@ -97,7 +97,7 @@ export default function AboutMeSection() {
                     ease: "easeInOut"
                   }}
                 >
-                  <Image src="/images/49.png" alt="Sticker" width={80} height={80} className="object-contain" />
+                   <Image src="/images/49.png" alt="Sticker" fill className="object-contain" />
                 </motion.div>
 
                 <motion.div
@@ -111,7 +111,7 @@ export default function AboutMeSection() {
                     ease: "linear"
                   }}
                 >
-                  <Image src="/images/50.png" alt="Sticker" width={90} height={90} className="object-contain" />
+                  <Image src="/images/50.png" alt="Sticker" fill className="object-contain" />
                 </motion.div>
 
                 <motion.div
@@ -127,7 +127,7 @@ export default function AboutMeSection() {
                     delay: 2
                   }}
                 >
-                  <Image src="/images/53.png" alt="Sticker" width={80} height={80} className="object-contain" />
+                  <Image src="/images/53.png" alt="Sticker" fill className="object-contain" />
                 </motion.div>
               </div>
             </div>

@@ -85,7 +85,7 @@ export const logEntries: LogEntry[] = [
   {
     id: "05",
     title: "Week 5: Payslips & Iteration",
-    date: "March 23-28",
+    date: "March 24-28",
     description: "Fine-tuning the Overtime Management interface and developing the Monthly Payslip Consolidation module for viewing and downloading records.",
     narrative: [
       "This week was dedicated to fine-tuning the features I had previously developed while taking on new responsibilities. I focused on implementing the minor adjustments and refinements suggested by my mentor during our last session, particularly regarding the Overtime Management interface on the employee side. These small but important tweaks ensured that the user experience was as smooth as possible before I presented the updated version in our next stand-up. It was a great lesson in the importance of iteration—sometimes the smallest UI changes make the biggest difference in how a system feels to the end user.",
@@ -168,7 +168,7 @@ export const logEntries: LogEntry[] = [
   {
     id: "10",
     title: "Week 10: Business Logic & Optimization",
-    date: "April 27 - May 2",
+    date: "April 27 - May 1",
     description: "Implementing complex work schedule overrides, financial multipliers, and a custom debouncing utility for system-wide optimization.",
     narrative: [
       "This week, I focused on my final major assignment: integrating the Work Schedule Configuration within the Admin settings. This was a highly technical task, as I was responsible for building the logic that serves as the \"brain\" for the entire attendance and payroll engine. Beyond the basic setup, I implemented a complex hierarchy of rules including Department-Level and Employee-Level Overrides. This ensures the system is flexible enough to handle specific shift requirements, like a night shift from 10 PM to 6 AM, while maintaining the standard system defaults for the rest of the workforce.",
@@ -201,7 +201,7 @@ export const logEntries: LogEntry[] = [
   {
     id: "12",
     title: "Week 12: Deployment & Final Goodbyes",
-    date: "May 11-16",
+    date: "May 11-15",
     description: "Deploying the final system to production, completing user documentation, and concluding the 486-hour internship journey.",
     narrative: [
       "This was officially the final week of my internship, and it felt like the culmination of everything we’ve worked for. By this point, the system was fully functional and optimized across every user role. We kicked things off on Monday with an intensive, full-scale testing session following our initial QA. Once the final green light was given, Dave and our mentor, Sir Mark, officially deployed the system. Watching the platform go live was an indescribable feeling—a mix of relief, pride, and a professional milestone I’ll never forget. With the code finally in production, I spent Tuesday through Thursday working from home on my last major task: creating the comprehensive user manual documentation for all roles, ensuring that every user has a clear guide on how to navigate the system we built.",
