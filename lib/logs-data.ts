@@ -194,7 +194,9 @@ export const logEntries: LogEntry[] = [
     images: [
       "/documentations/w11/IMG_20260504_111551_609.jpg",
       "/documentations/w11/IMG_20260508_195611_774.jpg",
-      "/documentations/w11/Screenshot 2026-05-08 212354.png"
+      "/documentations/w11/Screenshot 2026-05-08 212354.png",
+      "/documentations/w11/2acba151-d604-4031-9c9e-a7831ea7fb4e.jpg",
+      "/documentations/w11/5ffd5031-8c5d-4489-82e0-e8d127881988.jpg"
     ],
     character: { image: "/logs/42.png", color: "bg-[#52796f]", borderColor: "border-[#52796f]" },
   },
