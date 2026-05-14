@@ -17,7 +17,7 @@ export default async function LogDetailPage({
     return (
       <section className="min-h-screen bg-[#0a0a0a] text-white py-20 px-6 md:px-12 lg:px-20">
         <div className="max-w-3xl mx-auto">
-          <Link href="/logs" className="text-zinc-400 hover:text-white transition">
+          <Link href="/#logs" className="text-zinc-400 hover:text-white transition">
             Back
           </Link>
           <h1 className="mt-8 font-serif text-5xl">Log not found</h1>
@@ -31,7 +31,7 @@ export default async function LogDetailPage({
       <div className="max-w-5xl mx-auto">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <Link
-            href="/logs"
+            href="/#logs"
             className="flex items-center gap-2 text-zinc-400 hover:text-white transition group w-fit"
           >
             <IoArrowBackOutline className="group-hover:-translate-x-1 transition-transform" />

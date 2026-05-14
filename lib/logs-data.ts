@@ -210,7 +210,12 @@ export const logEntries: LogEntry[] = [
       "Friday marked our very last day onsite, where we officially received our Certificates of Completion for 486 hours. It was a day filled with overwhelming joy and a deep sense of accomplishment; looking back at the beginning of this journey, we genuinely doubted if we could pull off such a complex project, but seeing it deployed proved what we were capable of. At the same time, a wave of sadness hit me. I realized I was going to miss my daily routine with Archie and Dave—the morning \"chikahan\" and teasing, and the constant excitement over our provided office meals. I’ll miss our random ratings of the free breakfast, lunch, and snacks we shared, and the playful \"baratan\" while we worked. The bond we formed over the past few months turned a high-pressure environment into a second home.",
       "This is my final entry for my OJT blog, and looking back, it has been an absolutely amazing journey. I am so incredibly happy with my decision to join Quanby Solutions, even though I took the leap and applied all on my own. I don't regret a single moment; I’ve gained lifelong friends, expanded my technical knowledge, and sharpened my professional skills in ways I never imagined. Being able to apply everything I learned during my four years at BU to a real-world IT setting was the perfect way to close this chapter. I’m walking away from this internship not just as a graduate-to-be, but as a more confident developer ready for the next big challenge."
     ],
-    images: [],
+    images: [
+      "/documentations/w12/IMG_20260512_194135_003.jpg",
+      "/documentations/w12/Screenshot 2026-05-14 163405.png",
+      "/documentations/w12/Screenshot 2026-05-14 163548.png",
+      "/documentations/w12/Screenshot 2026-05-14 163621.png"
+    ],
     character: { image: "/logs/43.png", color: "bg-[#2A9D8F]", borderColor: "border-[#2A9D8F]" },
   },
 ];
