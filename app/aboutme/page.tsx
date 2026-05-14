@@ -147,8 +147,15 @@ export default function AboutMeSection() {
             <article className="space-y-6 text-zinc-400 text-lg md:text-xl font-light leading-relaxed">
               <p className="first-letter:text-5xl first-letter:font-serif first-letter:mr-3 first-letter:float-left first-letter:text-white first-letter:leading-none first-letter:mt-1">
                 Hi, I&apos;m <span className="text-white font-medium italic">Karylle Dollesin</span>, a 4th-year IT student. 
-                This space is where I document my 486-hour journey as a Full-stack Developer intern at 
-                <span className="text-white/90 border-b border-white/20"> Quanby Solutions, Inc.</span>
+                This space is where I document my 486-hour journey as a Full-stack Developer intern at{" "}
+                <a 
+                  href="https://quanbyit.com/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-white/90 hover:text-white transition-all duration-300"
+                >
+                  Quanby Solutions, Inc.
+                </a>
               </p>
               
               <p>
